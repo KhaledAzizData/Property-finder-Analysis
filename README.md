@@ -24,6 +24,7 @@ This project provides a comprehensive data-driven investigation into the Egyptia
 ## 📊 2. Market Deep Dive
 
 ### **1. Market Normalization: Value Density vs. Total Capital**
+![i1](images/i1.png)
 This analysis evaluates where the most expensive land is located (Price per SQM) compared to where the highest total investment is required (Total Price).
 
 > **Description:** The dual-axis chart compares the median price per square meter (blue bars) against the median total property price (red line) across Egyptian governorates.
@@ -36,6 +37,7 @@ This analysis evaluates where the most expensive land is located (Price per SQM)
 ---
 
 ### **2. The "Service Premium": Impact of Maid Rooms**
+![i2](images/i2.png)
 This analysis quantifies the luxury tiering of the market based on specific amenities.
 
 > **Description:** A box plot on a logarithmic scale compares the price distribution of properties with a maid's room (1) versus those without (0).
@@ -47,6 +49,7 @@ This analysis quantifies the luxury tiering of the market based on specific amen
 ---
 
 ### **3. Space Efficiency: Median SQM per Room by City**
+![i3](images/i3.png)
 This metric investigates the "Efficiency" of floor plans—how much physical space is allocated to each functional room.
 
 > **Description:** The horizontal bar chart ranks cities by the median square meters allocated per room.
@@ -59,6 +62,8 @@ This metric investigates the "Efficiency" of floor plans—how much physical spa
 ---
 
 ### **4. Investment Opportunity (The Deal Finder)**
+![i4](images/i4.png)
+
 This identifies market anomalies where properties are priced significantly below their local neighborhood average.
 
 > **Description:** A statistical output identifying "Strong Deals" where the price per SQM is significantly lower than the city median (Z-Score < -1.5).
@@ -77,5 +82,4 @@ This identifies market anomalies where properties are priced significantly below
 * **Premium Thresholds:** The presence of a maid's room and the number of bathrooms act as the strongest proxies for luxury, showing higher correlations with price than total bedrooms.
 * **Efficiency Shift:** Modern Egyptian real estate is trending toward **"High-Utility Efficiency,"** with newer cities maximizing room counts within smaller footprints compared to older, spacious districts.
 
----
-*Developed by Khaled Aziz — Data Analyst & MIS Graduate*
+
