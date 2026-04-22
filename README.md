@@ -9,7 +9,7 @@ This project provides a comprehensive data-driven investigation into the Egyptia
 
 - **Dimensional Normalization: Split mixed size strings into clean sqft_size and sqm_size numeric columns.**
 
-- **NLP-lite Room Extraction: Applied logic to extract total_rooms_numeric from complex strings like "3+ Maid" and handled "Studio" types.**
+- **Room Extraction: Applied logic to extract total_rooms_numeric from complex strings like "3+ Maid" and handled "Studio" types.**
 
 - **Feature Engineering: * has_maid: A binary flag for service quarters.**
 
